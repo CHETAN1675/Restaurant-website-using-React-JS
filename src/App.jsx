@@ -1,13 +1,17 @@
 import Header from "./components/Layout/Header"
+import Meals from "./components/Meals/Meals";
 import './App.css'
+import { Fragment } from "react"
 
 function App() {
   return(
-    <body className="body">
-    <div className="app-container">
+    <div className="body">
      <Header />
+    <main>
+      <Meals />
+    </main>
     </div>
-    </body>
+    
   );
 }
 
