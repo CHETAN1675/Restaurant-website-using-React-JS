@@ -11,6 +11,11 @@ const mealsList = listOfMeals.map((meal) => (
       <h3>{meal.dish}</h3>
       <p>{meal.description}</p>
       <p style={{ fontWeight: "bold" }}>${meal.price}</p>
+      <form className={styles.mealAmount}>
+        <label  htmlFor='quantity'>Amount</label>
+        <input className={styles.quantity} type="text"  id="quantity" placeholder='1'/>
+       <button className={styles.btn}>+ADD</button>
+      </form>
     </li>
   ));
 return(
