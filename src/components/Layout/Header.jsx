@@ -12,7 +12,7 @@ return(
      <HeaderCartButton onClick={props.onShowCart} />
        </header>
        <div className={classes['main-image']}>
-<img src={mealsImage} alt='Dinning Table full of delicious foods' />
+<img src={mealsImage} alt='Dinning Table full of delicious food!' />
        </div>
     </Fragment>
 );
