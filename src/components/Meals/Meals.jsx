@@ -1,14 +1,14 @@
 import { Fragment } from "react";
 import MealsSummary from "./MealsSummary";
-import MealItems from "./MealItems";
+import Menu from "./Menu";
 
 const Meals= ()=> {
     return(
         <Fragment>
         <MealsSummary />
-        <MealItems/>
+        <Menu/>
         </Fragment>
     );
-}
-;
+};
+
 export default Meals;
